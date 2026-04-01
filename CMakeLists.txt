@@ -16,7 +16,17 @@ else()
 endif()
 
 # Main executable
-add_executable(${PROJECT_NAME} main.cpp)
+add_executable(${PROJECT_NAME}
+    Audio.cpp
+    continutMedia.cpp
+    Exceptii.cpp
+    main.cpp
+    MediaSpecializat.cpp
+    Meniu.cpp
+    Playlist.cpp
+    Video.cpp
+    videoclipMuzica.cpp
+)
 
 if(GITHUB_ACTIONS)
     message("NOTE: GITHUB_ACTIONS defined")
