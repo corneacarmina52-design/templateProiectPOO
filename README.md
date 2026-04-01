@@ -25,3 +25,5 @@ Ierarhia claselor:
 4.TEHNOLOGII UTILIZATE
 -Limbaj C++
 -Versiune: Git/GitHub
+
+
